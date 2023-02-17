@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "DiceGame";
+
+    // Presents information about the number of ways
+
+    string output = "";
+
+    if (ViewBag.Ways > 1 || ViewBag.Ways == 0)
+    {
+        output = "There are " + ViewBag.Ways + " ways to get the sum 10.";
+    }
+    else
+    {
+        output = "There is " + ViewBag.Ways + " way to get the sum 10.";
+    }
+}
+
+<h2>DiceGame</h2>
+
+<p>@output</p>
+
+
+

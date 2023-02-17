@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="/J2/DiceGame" method="GET">
+    <div>
+        <label for="m">The number of sides on the first die:</label>
+        <input type="number" name="m" id="m" min="1"/>
+    </div>
+    <div>
+        <label for="n">The number of sides on the second die:</label>
+        <input type="number" name="n" id="n" min="1"/>
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</form>

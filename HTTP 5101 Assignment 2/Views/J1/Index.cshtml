@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="/J1/Menu" method="GET">
+    <div>
+        <label for="burger">Burger:</label>
+        <input type="number" name="burger" id="burger" min="1" max="4"/>
+    </div>
+    <div>
+        <label for="drink">Drink:</label>
+        <input type="number" name="drink" id="drink" min="1" max="4"/>
+    </div>
+    <div>
+        <label for="side">Side:</label>
+        <input type="number" name="side" id="side" min="1" max="4"/>
+    </div>
+    <div>
+        <label for="dessert">Dessert:</label>
+        <input type="number" name="dessert" id="dessert" min="1" max="4"/>
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</form>

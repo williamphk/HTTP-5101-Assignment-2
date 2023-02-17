@@ -156,7 +156,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\J1APIController.cs" />
     <Compile Include="Controllers\J1Controller.cs" />
+    <Compile Include="Controllers\J2APIController.cs" />
     <Compile Include="Controllers\J2Controller.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -214,6 +216,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\J1\Menu.cshtml" />
+    <Content Include="Views\J1\Index.cshtml" />
+    <Content Include="Views\J2\DiceGame.cshtml" />
+    <Content Include="Views\J2\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
