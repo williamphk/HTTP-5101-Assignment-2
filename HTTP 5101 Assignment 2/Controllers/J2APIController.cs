@@ -22,10 +22,10 @@ namespace HTTP_5101_Assignment_2.Controllers
         /// M:5 N:5 -> 1
         /// </returns>
         /// <example>
-        /// GET: api/J2API/GetWaysToRollTen/6/8 -> "5"
-        /// GET: api/J2API/GetWaysToRollTen/12/4 -> "4"
-        /// GET: api/J2API/GetWaysToRollTen/3/3 -> "0"
-        /// GET: api/J2API/GetWaysToRollTen/5/5 -> "1"
+        /// GET: api/J2API/GetWaysToRollTen/6/8 -> 5
+        /// GET: api/J2API/GetWaysToRollTen/12/4 -> 4
+        /// GET: api/J2API/GetWaysToRollTen/3/3 -> 0
+        /// GET: api/J2API/GetWaysToRollTen/5/5 -> 1
         /// </example>
         [HttpGet]
         [Route("api/J2API/GetWaysToRollTen/{m}/{n}")]

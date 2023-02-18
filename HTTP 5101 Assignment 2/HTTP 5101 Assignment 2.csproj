@@ -160,6 +160,8 @@
     <Compile Include="Controllers\J1Controller.cs" />
     <Compile Include="Controllers\J2APIController.cs" />
     <Compile Include="Controllers\J2Controller.cs" />
+    <Compile Include="Controllers\J3APIController.cs" />
+    <Compile Include="Controllers\J3Controller.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -220,6 +222,8 @@
     <Content Include="Views\J1\Index.cshtml" />
     <Content Include="Views\J2\DiceGame.cshtml" />
     <Content Include="Views\J2\Index.cshtml" />
+    <Content Include="Views\J3\hiddenPalindrome.cshtml" />
+    <Content Include="Views\J3\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
