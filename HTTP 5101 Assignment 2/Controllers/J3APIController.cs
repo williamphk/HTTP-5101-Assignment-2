@@ -30,7 +30,7 @@ namespace HTTP_5101_Assignment_2.Controllers
         public int GetMaxPalidrome(string word)
         {
             //default value
-            int max = 1;
+            int max = 0;
 
             for (int i = 0; i < word.Count(); i++)
             {
